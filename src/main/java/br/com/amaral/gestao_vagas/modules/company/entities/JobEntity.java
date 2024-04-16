@@ -23,7 +23,7 @@ public class JobEntity {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
     private String description;
-    private String benifits;
+    private String benefits;
 
     @NotBlank(message = "field level is required")
     private String level;
